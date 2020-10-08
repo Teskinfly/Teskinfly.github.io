@@ -158,6 +158,100 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-虾虾订餐系统readme" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/10/08/%E8%99%BE%E8%99%BE%E8%AE%A2%E9%A4%90%E7%B3%BB%E7%BB%9Freadme/">ReadMe</a>
+    </h1>
+  
+
+        
+        <a href="/2020/10/08/%E8%99%BE%E8%99%BE%E8%AE%A2%E9%A4%90%E7%B3%BB%E7%BB%9Freadme/" class="archive-article-date">
+  	<time datetime="2020-10-08T13:27:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="虾虾订餐系统"><a href="#虾虾订餐系统" class="headerlink" title="虾虾订餐系统"></a>虾虾订餐系统</h2><h4 id="1-项目介绍"><a href="#1-项目介绍" class="headerlink" title="1. 项目介绍"></a>1. 项目介绍</h4><p>虾虾订餐系统是一个前后端分离的网上订餐系统，项目采用SSM+Vue开发。</p>
+<h4 id="2-项目技术栈"><a href="#2-项目技术栈" class="headerlink" title="2. 项目技术栈"></a>2. 项目技术栈</h4><h6 id="2-1-后端技术栈"><a href="#2-1-后端技术栈" class="headerlink" title="2.1 后端技术栈"></a>2.1 后端技术栈</h6><ol>
+<li>Spring SpringMVC</li>
+<li>Mybatis</li>
+<li>MySQL</li>
+<li>Redis</li>
+<li>RabbitMQ</li>
+</ol>
+<h6 id="2-2-前端技术栈"><a href="#2-2-前端技术栈" class="headerlink" title="2. 2 前端技术栈"></a>2. 2 前端技术栈</h6><ol>
+<li>Vue</li>
+<li>ElementUI</li>
+<li>axios     </li>
+</ol>
+<h4 id="3-项目效果图"><a href="#3-项目效果图" class="headerlink" title="3. 项目效果图"></a>3. 项目效果图</h4><h6 id="3-1-用户端"><a href="#3-1-用户端" class="headerlink" title="3.1 用户端"></a>3.1 用户端</h6><p><img src="https://upload-images.jianshu.io/upload_images/21680686-9c9e4bd0f698f98e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="用户端示意图"></p>
+<h6 id="3-2-管理员端"><a href="#3-2-管理员端" class="headerlink" title="3.2 管理员端"></a>3.2 管理员端</h6><p><img src="https://upload-images.jianshu.io/upload_images/21680686-137839ed81a95bb2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="管理员端示意图"></p>
+<h4 id="4-后端部署"><a href="#4-后端部署" class="headerlink" title="4. 后端部署"></a>4. 后端部署</h4><h6 id="4-1-项目克隆到本地，idea打开XiaxiaOOS-Rear"><a href="#4-1-项目克隆到本地，idea打开XiaxiaOOS-Rear" class="headerlink" title="4.1 项目克隆到本地，idea打开XiaxiaOOS_Rear"></a>4.1 项目克隆到本地，idea打开XiaxiaOOS_Rear</h6><h6 id="4-2-数据库数据导入"><a href="#4-2-数据库数据导入" class="headerlink" title="4.2 数据库数据导入"></a>4.2 数据库数据导入</h6><p>4.2.3 创建数据库roos_db</p>
+<p>4.2.4 运行roos_db.sql</p>
+<p>4.2.5 打开<code>resources/db/db.properties</code>，修改数据库信息</p>
+<h6 id="4-3-准备好redis"><a href="#4-3-准备好redis" class="headerlink" title="4.3 准备好redis"></a>4.3 准备好redis</h6><p>4.3.1 打开<code>resources/redis.proerties</code>,修改redis信息</p>
+<h6 id="4-4-准备好rabbitmq"><a href="#4-4-准备好rabbitmq" class="headerlink" title="4.4 准备好rabbitmq"></a>4.4 准备好rabbitmq</h6><p>4.4.1  打开<code>resources/rabbitmq/rabbitmq.proerties</code>,修改redis信息</p>
+<p>4.4.2 打开<code>resources/email/email.properties</code>, 换成自己邮箱的信息</p>
+<h6 id="4-5-启动Tomcat，便ok"><a href="#4-5-启动Tomcat，便ok" class="headerlink" title="4.5 启动Tomcat，便ok"></a>4.5 启动Tomcat，便ok</h6><h4 id="5-前端启动-因为包括用户端与管理员端，需要单独启动"><a href="#5-前端启动-因为包括用户端与管理员端，需要单独启动" class="headerlink" title="5. 前端启动, 因为包括用户端与管理员端，需要单独启动"></a>5. 前端启动, 因为包括用户端与管理员端，需要单独启动</h4><h6 id="5-1-cmd进入XiaxiaOOS-Front-xiaxiaoos-front-admin-管理员端为例"><a href="#5-1-cmd进入XiaxiaOOS-Front-xiaxiaoos-front-admin-管理员端为例" class="headerlink" title="5.1 cmd进入XiaxiaOOS_Front\xiaxiaoos_front_admin(管理员端为例)"></a>5.1 cmd进入<code>XiaxiaOOS_Front\xiaxiaoos_front_admin</code>(管理员端为例)</h6><h6 id="5-2-运行npm-install"><a href="#5-2-运行npm-install" class="headerlink" title="5.2 运行npm install"></a>5.2 运行<code>npm install</code></h6><h6 id="5-3-运行npm-run-serve"><a href="#5-3-运行npm-run-serve" class="headerlink" title="5.3 运行npm run serve"></a>5.3 运行<code>npm run serve</code></h6><h4 id="6-项目地址"><a href="#6-项目地址" class="headerlink" title="6. 项目地址"></a>6. <a target="_blank" rel="noopener" href="https://github.com/Teskinfly/XiaXiaOOS-ssm-vue-">项目地址</a></h4>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">-项目介绍</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/10/08/%E8%99%BE%E8%99%BE%E8%AE%A2%E9%A4%90%E7%B3%BB%E7%BB%9Freadme/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Github搭建个人博客-Hexo" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -492,6 +586,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">环境搭建</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">-项目介绍</a>
               </li>
             
             <div class="clearfix"></div>
