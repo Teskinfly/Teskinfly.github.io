@@ -46,6 +46,13 @@
 
   
   <url>
+    <loc>http://teskinfly.github.io.git/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2020-10-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://teskinfly.github.io.git/tags/java/</loc>
     <lastmod>2020-10-08</lastmod>
     <changefreq>daily</changefreq>
@@ -67,14 +74,7 @@
   </url>
   
   <url>
-    <loc>http://teskinfly.github.io.git/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2020-10-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://teskinfly.github.io.git/tags/%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/</loc>
+    <loc>http://teskinfly.github.io.git/tags/%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2020-10-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
